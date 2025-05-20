@@ -10,6 +10,8 @@ const dc = ["superman", "flash", "batman"]
 // const allHeros = marvelHeros.concat(dc)
 // console.log(allHeros);
 
+
+//  [... , ...]-> used to merge
 const all_new_heros = [...marvelHeros,...dc]
 // console.log(all_new_heros);
 
